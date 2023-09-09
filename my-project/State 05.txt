@@ -1,0 +1,8 @@
+State 05
+
+Reset the counter to the initial value received as a prop when the value is greater than ten times that initial value.
+
+Ripristina il contatore al valore iniziale ricevuto come oggetto di scena quando il valore è maggiore di dieci volte quel valore iniziale.
+
+
+

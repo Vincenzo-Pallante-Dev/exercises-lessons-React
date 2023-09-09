@@ -5,21 +5,25 @@ export class Counter extends React.Component {
     count: this.props.initialValue,
   };
 
-  constructor(props) {
-    super(props);
-
-    this._interval = setInterval(() => {
+  componentDidMount() {
+    setInterval(() => {
       this.setState((state) => {
         return {
           count: state.count + this.props.incrementBy,
         };
       });
-    }, this.props.timeout);
+    }, this.props.time);
   }
 
-  componentWillUnmount() {
-    if (this._interval) {
-      clearInterval(this._interval);
+  componentDidUpdate(prevState) {
+    if (prevState.count < 10) {
+      return {
+        count: this.state.count + this.props.incrementBy,
+      };
+    } else {
+      return {
+        count: this.state.count - this.state.count,
+      };
     }
   }
 
@@ -27,14 +31,13 @@ export class Counter extends React.Component {
     return (
       <div>
         <h3>Count: {this.state.count}</h3>
-        {this.state.count < 5 && <p>This counter is great!</p>}
       </div>
     );
   }
 }
 
 Counter.defaultProps = {
-  timeout: 1000,
+  time: 1000,
   initialValue: 0,
   incrementBy: 1,
 };

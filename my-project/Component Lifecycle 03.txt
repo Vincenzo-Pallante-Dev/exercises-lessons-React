@@ -1,0 +1,6 @@
+Component Lifecycle 03
+
+Reset the counter to the initial value received as a prop when the value is greater than ten times that initial value. Do so in the `componentDidUpdate` lifecycle method.
+
+Ripristina il contatore al valore iniziale ricevuto come oggetto di scena quando il valore è maggiore di dieci volte quel valore iniziale. Fallo nel metodo del ciclo di vita "componentDidUpdate".
+

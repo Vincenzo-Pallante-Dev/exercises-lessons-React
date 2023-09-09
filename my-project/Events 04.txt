@@ -1,0 +1,5 @@
+Events 04
+
+Modifiy the `ClickTracker` so that each button contains an image instead of a text. How does this affect the event handler?
+Modifica il `Click Tracker` in modo che ogni pulsante contenga un'immagine invece di un testo. In che modo ciò influisce sul gestore eventi?
+riposta: target images

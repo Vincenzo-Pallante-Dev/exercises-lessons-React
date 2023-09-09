@@ -1,7 +1,0 @@
-Events 02
-
-Extract the button within a new component called CounterButton and render it within the ClickCounter component.
- How can you pass the onClick event handler to the CounterButton component?
-
- Estrai il pulsante all'interno di un nuovo componente chiamato CounterButton ed esegui il rendering all'interno del componente ClickCounter.
-  Come puoi passare il gestore eventi onClick al componente CounterButton?

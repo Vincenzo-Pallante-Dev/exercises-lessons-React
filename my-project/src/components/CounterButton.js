@@ -18,7 +18,9 @@ export class CounterButton extends React.Component {
     return (
       <div>
         <h1>Count: {this.state.count}</h1>
-        <button onClick={this.handleCounterIncrement}>Increment</button>
+        <button onClick={this.handleCounterIncrement}>
+          <img src="https://i.ibb.co/CW5Wvry/buttonpng.png" alt="" />
+        </button>
       </div>
     );
   }

@@ -1,0 +1,4 @@
+Write a function that receives a `name` argument and returns a `h1` tag with the `name` variable appended to the `"Hello, "` string.
+Scrivi una funzione che riceve un argomento `name`
+ e restituisce un tag `h1` con la variabile `name`
+  aggiunta alla stringa `"Hello, "`.

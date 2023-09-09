@@ -8,24 +8,26 @@ export class Counter extends React.Component {
   constructor(props) {
     super(props);
 
-    setInterval(() => {
+    this._interval = setInterval(() => {
       this.setState((state) => {
-        if (this.state.count < 10) {
-          return {
-            count: state.count + this.props.incrementBy,
-          };
-        } else {
-          return {
-            count: this.state.count - this.state.count,
-          };
-        }
+        return {
+          count: state.count + this.props.incrementBy,
+        };
       });
     }, this.props.timeout);
   }
+
+  componentWillUnmount() {
+    if (this._interval) {
+      clearInterval(this._interval);
+    }
+  }
+
   render() {
     return (
       <div>
         <h3>Count: {this.state.count}</h3>
+        {this.state.count < 5 && <p>This counter is great!</p>}
       </div>
     );
   }

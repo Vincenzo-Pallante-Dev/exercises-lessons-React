@@ -1,0 +1,8 @@
+Component Lifecycle 02
+
+Modify the `Counter` component so that the interval is cleared whenever the component is unmounted. What lifecycle method should you use?
+
+Modifica il componente "Contatore" in modo che l'intervallo venga cancellato ogni volta che il componente viene smontato. Quale metodo del ciclo di vita dovresti utilizzare?
+
+Risposta:
+Utilizzo il metodo componentWillUnmount() in modo da cancellare il componente ogni voltta che viene smontato

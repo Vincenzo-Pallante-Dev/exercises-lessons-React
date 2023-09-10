@@ -1,0 +1,5 @@
+Forms 02
+
+Create a `Login` component containing three inputs: a `username` input, a `password` input and a `remember` checkbox. All three inputs should be controlled components.
+Crea un componente "Login" contenente tre input: un input "nome utente", un input "password" e una casella di controllo "ricorda". 
+Tutti e tre gli ingressi dovrebbero essere componenti controllati.

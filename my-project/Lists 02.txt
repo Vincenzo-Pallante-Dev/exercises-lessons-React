@@ -1,4 +1,0 @@
-Lists 02
-
-Modify the `Colors` component so that `items` is expected to be an array of objects each containing an `id` and a `name` property. Render the `name` property of each object within a `li` tag, and use the `id` as a key.
-Modifica il componente "Colors" in modo che "items" sia un array di oggetti, ciascuno contenente una proprietà "id" e una proprietà "name". Visualizza la proprietà "name" di ciascun oggetto all'interno di un tag "li" e utilizza "id" come chiave.

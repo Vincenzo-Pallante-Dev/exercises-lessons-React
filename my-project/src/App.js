@@ -1,8 +1,8 @@
 import React from "react";
-import { Login } from "./components/Login";
+import { Colors } from "./components/Colors";
 
 export class App extends React.Component {
   render() {
-    return <Login />;
+    return <Colors items={["White", "Black", "Red"]} />;
   }
 }

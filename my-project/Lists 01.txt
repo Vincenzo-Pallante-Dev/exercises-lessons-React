@@ -1,4 +1,0 @@
-Lists 01
-
-Create a `Colors` component that renders a `ul` tag with a `li` tag for each color passed in the `items` prop. The `items` prop should be an array of strings.
-Crea un componente "Colors" che restituisca un tag "ul" con un tag "li" per ogni colore passato nella prop "items". La prop `items` dovrebbe essere un array di stringhe.

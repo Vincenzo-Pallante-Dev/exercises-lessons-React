@@ -1,8 +1,8 @@
 import React from "react";
-import { Welcome } from "./components/Welcome";
+import { Counter } from "./components/Counter";
 
 export class App extends React.Component {
   render() {
-    return <Welcome />;
+    return <Counter />;
   }
 }

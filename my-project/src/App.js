@@ -1,8 +1,8 @@
 import React from "react";
-import { Counter } from "./components/Counter";
+import { Login } from "./components/Login";
 
 export class App extends React.Component {
   render() {
-    return <Counter />;
+    return <Login />;
   }
 }

@@ -1,2 +1,0 @@
-Modify the `Counter` component from 7.1 by styling the counter display using an inline `style` attribute.
-Modifica il componente "Contatore" dalla versione 7.1 definendo uno stile per la visualizzazione del contatore utilizzando un attributo "stile" in linea.

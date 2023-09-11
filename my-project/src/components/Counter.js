@@ -15,8 +15,8 @@ export class Counter extends React.Component {
     }, this.props.time);
   }
 
-  componentDidUpdate(prevState) {
-    if (prevState.count < 10) {
+  componentDidUpdate() {
+    if (this.state.count < 10) {
       return {
         count: this.state.count + this.props.incrementBy,
       };

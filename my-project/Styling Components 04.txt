@@ -1,0 +1,2 @@
+Install the `tailwindcss` package and use it to style the `TodoList` component.
+Installa il pacchetto `tailwindcss` e usalo per definire lo stile del componente `TodoList`.

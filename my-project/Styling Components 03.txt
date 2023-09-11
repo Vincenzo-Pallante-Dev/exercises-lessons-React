@@ -1,4 +1,0 @@
-Modify the `Login` component from 8.3 so that the "login" `button` background color is "red" when the inputted password's length is shorter than 8 characters, green otherwise.
-Modifica il componente "Login" dalla versione 8.3
-in modo che il colore di sfondo del "pulsante" "login" sia "rosso" quando la lunghezza della password immessa
-è inferiore a 8 caratteri, verde altrimenti.

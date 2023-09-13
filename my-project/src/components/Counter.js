@@ -16,14 +16,12 @@ export class Counter extends React.Component {
   }
 
   componentDidUpdate() {
-    if (this.state.count < 10) {
-      return {
-        count: this.state.count + this.props.incrementBy,
-      };
-    } else {
-      return {
-        count: this.state.count - this.state.count,
-      };
+    if (this.state.count > 10) {
+      this.setState(() => {
+        return {
+          count: this.props.initialValue,
+        };
+      });
     }
   }
 
@@ -38,6 +36,6 @@ export class Counter extends React.Component {
 
 Counter.defaultProps = {
   time: 1000,
-  initialValue: 0,
+  initialValue: 1,
   incrementBy: 1,
 };

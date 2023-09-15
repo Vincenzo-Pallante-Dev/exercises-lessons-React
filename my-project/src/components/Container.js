@@ -4,8 +4,9 @@ export class Container extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>Welcome!!</h1>
-        <p>Hello, I am a paragraph</p>
+        <div className="container-title">{this.props.title}</div>
+        <hr></hr>
+        <div>{this.props.children}</div>
       </div>
     );
   }

@@ -3,6 +3,6 @@ import { Container } from "./components/Container";
 
 export class App extends React.Component {
   render() {
-    return <Container />;
+    return <Container title="My awesome Application" />;
   }
 }

@@ -1,8 +1,15 @@
 import React from "react";
-import { Container } from "./components/Container";
+import { TodoLists } from "./components/TodoList";
+
+const todos = [
+  { id: 1, title: "Buy Milk", completed: false },
+  { id: 2, title: "Go to the movied", completed: false },
+  { id: 3, title: "Water the plants", completed: true },
+  { id: 4, title: "Sleep", completed: true },
+];
 
 export class App extends React.Component {
   render() {
-    return <Container title="My awesome Application" />;
+    return <TodoLists todos={todos} />;
   }
 }

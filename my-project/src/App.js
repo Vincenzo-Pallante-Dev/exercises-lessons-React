@@ -1,15 +1,23 @@
 import React from "react";
-import { TodoLists } from "./components/TodoList";
-
-const todos = [
-  { id: 1, title: "Buy Milk", completed: false },
-  { id: 2, title: "Go to the movied", completed: false },
-  { id: 3, title: "Water the plants", completed: true },
-  { id: 4, title: "Sleep", completed: true },
-];
+import { TodoLIst } from "./components/TodoList";
 
 export class App extends React.Component {
   render() {
-    return <TodoLists todos={todos} />;
+    return (
+      <TodoLIst>
+        {(todos, handleRemove) => (
+          <div>
+            {todos.map((todo, index) => (
+              <div key={todo + index}>
+                {todo}
+                <button onClick={() => handleRemove(index)}>
+                  Rimuovi scelta
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+      </TodoLIst>
+    );
   }
 }

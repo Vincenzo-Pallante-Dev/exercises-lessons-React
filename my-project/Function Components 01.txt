@@ -1,0 +1,2 @@
+Rewrite the `Welcome` component to be a function component.
+Riscrivi il componente "Benvenuto" in un componente funzione.

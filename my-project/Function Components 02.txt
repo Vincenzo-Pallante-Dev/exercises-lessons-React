@@ -1,4 +1,0 @@
--   14.2 Write a `Sum` function component that receives a `numbers` prop (expected to be an array of numbers) and renders the sum of all numbers in the array within a `h1` tag.
-- 14.2 Scrivere un componente della funzione `Sum` che riceva una prop `numbers`
- (che dovrebbe essere un array di numeri)
-  e restituisca la somma di tutti i numeri nell'array all'interno di un tag `h1`.

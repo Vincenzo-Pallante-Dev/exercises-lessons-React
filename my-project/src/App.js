@@ -1,8 +1,10 @@
 import React from "react";
-import { Welcome } from "./components/Welcome";
+import { Sum } from "./components/Sum";
+
+const numbers = [10, 13, 14];
 
 export class App extends React.Component {
   render() {
-    return <Welcome name="Vincenzo" />;
+    return <Sum numbers={numbers} />;
   }
 }

@@ -1,10 +1,8 @@
 import React from "react";
-import { Sum } from "./components/Sum";
-
-const numbers = [10, 13, 14];
+import { TodoList } from "./components/TodoList";
 
 export class App extends React.Component {
   render() {
-    return <Sum />;
+    return <TodoList />;
   }
 }

@@ -1,0 +1,3 @@
+Rewrite the `TodoList` component from Lists 03 as a function component, and use the `useState` hook to track the state of the `items` array.
+Riscrivi il componente "TodoList" dalle Liste 03 come componente di funzione
+ e usa l'hook "useState" per tracciare lo stato dell'array "items".

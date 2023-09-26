@@ -1,0 +1,5 @@
+Modify the `Login` component from 15.2 to so that the `username` input is automatically focused when the component renders, by creating a `ref` with `useRef` and attaching it to the username input;
+Modificare il componente "Login" da 15.2 a 
+in modo che l'input "username" venga automaticamente focalizzato
+ durante il rendering del componente, creando un "ref" con "useRef"
+  e allegandolo all'input del nome utente;

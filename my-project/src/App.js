@@ -1,7 +1,15 @@
-import React from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import { Welcome } from "./Welcome";
 
-export class App extends React.Component {
-  render() {
-    return <></>;
-  }
+export function App() {
+  return (
+    <div>
+      <Link to="/:name">Go Welcome Component</Link>
+      <hr />
+      <Link to="/">Go Home</Link>
+      <Routes>
+        <Route path="/:name" element={<Welcome />} />
+      </Routes>
+    </div>
+  );
 }

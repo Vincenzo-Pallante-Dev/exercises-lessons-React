@@ -1,7 +1,0 @@
-Create an `App` component that wraps a `Routes` component and add a single `Route` to the `/` path that renders the `Welcome` component from Function Components 01, passing it a `name` prop. Render the `App` component within a `BrowserRouter` component.
-Crea un componente "App"
- che racchiuda un componente "Routes" 
- e aggiungi un singolo "Route" al percorso "/" 
- che esegue il rendering del componente "Welcome" da Function Components 01,
-  passandogli una prop "name".
-   Visualizza il componente "App" all'interno di un componente "BrowserRouter".
